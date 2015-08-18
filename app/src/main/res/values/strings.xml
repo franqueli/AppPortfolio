@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">AppPortfolio</string>
-
+    <string name="launch_screen_title">Frank's Awesome App Catalog</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="spotify_button_title">SPOTIFY STREAMER</string>
+    <string name="scores_button_title">SCORES APP</string>
+    <string name="library_button_title">LIBRARY APP</string>
+    <string name="build_bigger_button_title">BUILD IT BIGGER</string>
+    <string name="reader_button_title">XYZ READER</string>
+    <string name="capstone_button_title">CAPSTONE: MY OWN APP</string>
 </resources>
