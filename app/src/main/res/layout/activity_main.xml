@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/title_vertical_margin"
+        style="@android:style/TextAppearance.DeviceDefault.Medium"
         android:text="@string/launch_screen_title" />
 
     <Button
@@ -22,6 +23,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/app_list_button_margin"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/spotify_button_title"/>
 
     <Button
@@ -29,6 +32,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/app_list_button_margin"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/scores_button_title"/>
 
     <Button
@@ -36,6 +41,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/app_list_button_margin"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/library_button_title"/>
 
     <Button
@@ -43,6 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/app_list_button_margin"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/build_bigger_button_title"/>
 
     <Button
@@ -50,6 +59,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/app_list_button_margin"
+        android:background="@android:color/holo_orange_dark"
         android:text="@string/reader_button_title"/>
 
     <Button
@@ -57,6 +68,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
+        android:background="@android:color/holo_red_dark"
         android:text="@string/capstone_button_title"/>
 
 </LinearLayout>
