@@ -18,32 +18,42 @@
         android:text="@string/launch_screen_title" />
 
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/spotify_button_title"/>
 
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/scores_button_title"/>
+
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/library_button_title"/>
+
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/build_bigger_button_title"/>
+
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="@string/reader_button_title"/>
+
     <Button
+        android:width="@dimen/app_list_button_width"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
