@@ -4,6 +4,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Toast;
 
 public class MainActivity extends ActionBarActivity {
 
@@ -34,4 +36,34 @@ public class MainActivity extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+
+    // Button input handlers
+    public void spotifyButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch the spotify streamer", Toast.LENGTH_LONG).show();
+
+    }
+
+    public void scoresButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch the score app", Toast.LENGTH_LONG).show();
+    }
+
+    public void libraryButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch the library app", Toast.LENGTH_LONG).show();
+    }
+
+    public void buildBiggerButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch the Build it Bigger app", Toast.LENGTH_LONG).show();
+    }
+
+    public void readerButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch the XYZ reader app", Toast.LENGTH_LONG).show();
+    }
+
+    public void capstoneButtonClickHandler(View view) {
+        Toast.makeText(getApplicationContext(), "This button will launch my capstone app!", Toast.LENGTH_LONG).show();
+    }
+
+
 }
